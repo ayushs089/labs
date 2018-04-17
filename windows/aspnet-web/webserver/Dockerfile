@@ -1,4 +1,4 @@
-FROM microsoft/dotnet:latest
+FROM appsvc/dotnetcore:1.0.0-preview2-1
 
 WORKDIR /root/
 ADD ./app/ ./app/
